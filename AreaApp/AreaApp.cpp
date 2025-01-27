@@ -20,17 +20,18 @@ using namespace std;
 //	cout << "The area is ==> " << (w * h) << endl;
 //}
 
-void CircArea(double);
+void CalcCircleArea(double);
+const double PI = 3.1416;
 
 int main()
 {
 	double Radius;
 	cout << "Enter the radius of the circle as an integer ==> ";
 	cin >> Radius;
-	CircArea(Radius);
+	CalcCircleArea(Radius);
 }
 
-void CircArea(double r)
+void CalcCircleArea(double r)
 {
-	cout << "The area of the circle is ==> " << (3.14 * r * r) << endl;
+	cout << "The area of the circle is ==> " << (PI * r * r) << endl;
 }
