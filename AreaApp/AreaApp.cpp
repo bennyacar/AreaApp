@@ -1,8 +1,8 @@
 #include <iostream>
 using namespace std;
 
+//Calculate the area of a rectangle
 //void CalcArea(double, double);
-
 //int main()
 //{
 //	double Width;
